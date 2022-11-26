@@ -2,7 +2,7 @@ Links to websites and resources I found helpful
 
 ## Youtube
 [Andy Li](https://www.youtube.com/@andyli/videos)
-[CoinSec Podcast: https://www.youtube.com/channel/UC6TBToDmLkLBqOfOLQSa1Zg)
+[CoinSec Podcast](https://www.youtube.com/channel/UC6TBToDmLkLBqOfOLQSa1Zg)
 
 
 ## Websites
