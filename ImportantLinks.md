@@ -6,7 +6,7 @@ Links to websites and resources I found helpful
 
 
 ## Websites
-[BlockchainHax](https://start.blockchainhax.com/)<br/>
+[BlockchainHax](https://start.blockchainhax.com/)<b>SETTING UP LAB</B><br/>
 [Medium Path to Web3](https://medium.com/immunefi/hacking-the-blockchain-an-ultimate-guide-4f34b33c6e8b)<br/>
 [Secureum](https://secureum.substack.com/)<br/>
 [YAcademy](https://yacademy.dev/about/)<br/>
