@@ -1,5 +1,5 @@
 ## Decentralized Exchange
-## AMM Atoumated market Maker
+## AMM Automated Market Maker
 Works on a formula called **"Constant Product formula"**<br>
 ```x * y = K```<br>
 x is reserves for first token in pool and y is the reserve of the 2nd token = K **this is so after a trade too**<br>
