@@ -1,5 +1,8 @@
 Links to websites and resources I found helpful
 
+## SmartContract Auditing
+[GitHub checklist] https://github.com/OpenCoreCH/smart-contract-auditing-heuristics
+
 ## Youtube
 [Andy Li](https://www.youtube.com/@andyli/videos)<br/>
 [CoinSec Podcast](https://www.youtube.com/channel/UC6TBToDmLkLBqOfOLQSa1Zg)<br/>
