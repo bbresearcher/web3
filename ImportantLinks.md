@@ -1,7 +1,7 @@
 Links to websites and resources I found helpful
 
 ## SmartContract Auditing
-[GitHub checklist](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics)
+[GitHub checklist](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics)<br/>
 [Smart-Contract Security tools-Comparison](https://medium.com/@charingane/smart-contract-security-tools-comparison-4aaddf301f01)
 
 ## Youtube
