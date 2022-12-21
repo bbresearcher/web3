@@ -5,6 +5,7 @@ Works on a formula called **"Constant Product formula"**<br>
 x is reserves for first token in pool and y is the reserve of the 2nd token = K **this is so after a trade too**<br>
 
 ## Liquidity Pools
+The amount of Liquidity tokens are calculated using the geomteric mean.<br/>
 Contains pools of paired tokens of equal value<br>
 Follow 2 Rules<br>
 1. Liquidity Providers must deposit two ERC20 tokens of equal value<br>
