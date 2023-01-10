@@ -7,6 +7,8 @@ Links to websites and resources I found helpful
 ## Youtube
 [Andy Li](https://www.youtube.com/@andyli/videos)<br/>
 [CoinSec Podcast](https://www.youtube.com/channel/UC6TBToDmLkLBqOfOLQSa1Zg)<br/>
+[Web3 Blockchain developer](https://www.youtube.com/@Web3BlockchainDeveloper/videos)<br/>
+[Spearbit](https://www.youtube.com/@Spearbit)<br/>
 
 
 ## Websites
