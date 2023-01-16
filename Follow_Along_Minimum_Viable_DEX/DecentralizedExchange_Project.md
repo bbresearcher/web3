@@ -1,3 +1,4 @@
+## THIS IS A FOLLOW ALONG FROM THE SERIES ON [WEB3 BLOCKCHAIN DEVELOPER YOUTUBE CHANNEL](https://www.youtube.com/@DeFiDeveloperAcademy/videos)
 ## Decentralized Exchange
 ## AMM Automated Market Maker
 Works on a formula called **"Constant Product formula"**<br>
