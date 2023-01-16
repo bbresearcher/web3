@@ -10,6 +10,7 @@ Links to websites and resources I found helpful
 [Web3 Blockchain developer](https://www.youtube.com/@DeFiDeveloperAcademy/videos)<br/>
 [Spearbit](https://www.youtube.com/@Spearbit)<br/>
 [dApp University](https://www.youtube.com/@DappUniversity/videos)<br/>
+[yAcademy](https://www.youtube.com/@yacademyDAO/videos)<br/>
 
 
 ## Websites
