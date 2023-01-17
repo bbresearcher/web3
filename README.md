@@ -12,6 +12,7 @@ current scaling solutions
 - Rollups bundle TX in a single TX (SNARK) ZK ROLLUPS AND OPTIMISTIC ROLLUPS (OVM)
 
 ### What is the EVM
+[Spearbit EVM info video](https://www.youtube.com/watch?v=XhfaG6cYulU)<br/>
 Ethereum Virtual Machine (EVM)<br/>
 Quasi-turing complete<br/>
 State machine<br/>
