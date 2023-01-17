@@ -1,5 +1,5 @@
 ## A repository for WEB3 101 and things I have learned to share my learning journey<br/>
-## NB!!! All information is as I understand it but please verify the correctness of it, this repository is not meant to be an authoritative source of information.
+## NB!!! DISCLAIMER: All information is as I understand it but please verify the correctness of it, this repository is not meant to be an authoritative source of information.
 ## Concepts
 ### What is ETH 2.0
 Proof of Stake vs Proof of Work, this introduces sharding which increases speed and throughput.
