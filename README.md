@@ -74,7 +74,7 @@ To solve the decentralization issue DON's exist (Decentralized Oracle networks).
 
 Some manipulations: draining one side of a swap pool, <br/>
 
-### Attacks
+### WEB3 Security Best Practices
 Very good resource: https://consensys.github.io/smart-contract-best-practices<br/>
 
 
