@@ -1,4 +1,5 @@
 ## DO NOT USE THIS CODE IN ANY PRODUCTION ENVIRONMENT IT IS A REFERENCE FOR LEARNING CONCEPTS OF HOW DEX WORK.
+## THE ORIGINAL REPOSITORY CAN BE FOUND AT [https://github.com/hackingbeauty/minimally-viable-dex](https://github.com/hackingbeauty/minimally-viable-dex)
 ## THIS IS A FOLLOW ALONG FROM THE SERIES ON [WEB3 BLOCKCHAIN DEVELOPER YOUTUBE CHANNEL](https://www.youtube.com/@DeFiDeveloperAcademy/videos)
 ## Decentralized Exchange
 ## AMM Automated Market Maker
