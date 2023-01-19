@@ -11,6 +11,7 @@ Links to websites and resources I found helpful
 [Spearbit](https://www.youtube.com/@Spearbit)<br/>
 [dApp University](https://www.youtube.com/@DappUniversity/videos)<br/>
 [yAcademy](https://www.youtube.com/@yacademyDAO/videos)<br/>
+[Smart Contract Developer tutorials](https://www.youtube.com/@smartcontractprogrammer/videos)<br/>
 
 
 ## Websites
