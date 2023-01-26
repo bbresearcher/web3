@@ -16,6 +16,7 @@ current scaling solutions
 [Spearbit EVM info video](https://www.youtube.com/watch?v=XhfaG6cYulU)<br/>
 [A Low-Level Guide To Solidity's Storage Management](https://degatchi.com/articles/low_level_guide_to_soliditys_storage_management)<br/>
 [Reversing The EVM: Raw Calldata](https://degatchi.com/articles/reading-raw-evm-calldata)<br/>
+[EVM OP Codes](https://www.evm.codes/?fork=merge)<br/>
 Ethereum Virtual Machine (EVM)<br/>
 Quasi-turing complete<br/>
 State machine<br/>
