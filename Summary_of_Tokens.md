@@ -1,6 +1,6 @@
 # Smart Contract token list:<br>
 Summary of information at [https://ethereum.org/en/developers/docs/standards/tokens/](https://ethereum.org/en/developers/docs/standards/tokens/)<br>
-OpenZeppelin Exnteding Contracts. [https://docs.openzeppelin.com/contracts/3.x/extending-contracts](https://docs.openzeppelin.com/contracts/3.x/extending-contracts)<br>
+OpenZeppelin Extending Contracts. [https://docs.openzeppelin.com/contracts/3.x/extending-contracts](https://docs.openzeppelin.com/contracts/3.x/extending-contracts)<br>
 ## ERC20:<br>
 ```
 	function name() public view returns (string)
