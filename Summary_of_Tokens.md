@@ -30,7 +30,10 @@ Summary of information at [https://ethereum.org/en/developers/docs/standards/tok
 	event Transfer(address indexed _from, address indexed _to, uint256 indexed _tokenId);
 	event Approval(address indexed _owner, address indexed _approved, uint256 indexed _tokenId);
 	event ApprovalForAll(address indexed _owner, address indexed _operator, bool _approved);
+	
 ```
+	Hooks and details:
+	https://eips.ethereum.org/EIPS/eip-721
 ## ERC777:<br>
 ```
 	ERC20 Backwards compatible adds hooks
