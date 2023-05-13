@@ -4,7 +4,7 @@ As a developer or auditor you need to keep this in mind as delegating a call to 
 
 **Notice** the value of the ***contractMsg*** variable and where it is set in the output.
 
-If you would really like to test how storage works play around with the order of the variables in **ContractB and ContractC**.
+If you would really like to test how storage works, play around with the order of the variables in **ContractB and ContractC**.
 
 Included in this repository are files to test this concept.
 
