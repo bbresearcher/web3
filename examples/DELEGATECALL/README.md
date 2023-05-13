@@ -33,7 +33,7 @@ Logs:
   --------End Of Output From ContractC Constructor-------------------
   
   ---------------Output From ContactB setContractA function --------
-  | [setConstractA] Setting ContractA address to :  0x00000000000000000000000000000000000004d2  |
+  | [setConstractA] Setting ContractA address to :  0x0.........................  |
   ---------------Output From ContactB setContractA-------------------
   
   ---------------Output From ContractA callB function -------------
