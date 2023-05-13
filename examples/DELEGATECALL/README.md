@@ -1,7 +1,9 @@
 ## DelegateCall
 DeleteCall sends the call through to another contract. When the code is run at the other contract the **msg.value**,**msg.sender** and **storage** of the delegating contract are used.
 As a developer or auditor you need to keep this in mind as delegating a call to an external contract will allow that external contract access to variables and functionality of your contract.
+
 **Notice** the value of the ***contractMsg*** variable and where it is set in the output.
+
 If you would really like to test how storage works play around with the order of the variables in **ContractB and ContractC**.
 
 Included in this repository are files to test this concept.
