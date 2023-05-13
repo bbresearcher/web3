@@ -4,6 +4,17 @@ DeleteCall sends the call through to another contract. When the code is run at t
 Included in this repository are files to test this concept.
 
 ## Running the example
+1. Commands to run to initiate directory
+```
+mkdir example_dir
+cd example_dir
+forge init --no-git
+forge install --no-git OpenZeppelin/openzeppelin-contracts
+```
+2. Copy to files to the correct directories
+3. ContractA.sol, ContractB.sol and ContractC.sol to the src directory.
+4. DelegateTest.t.sol to the test directory.
+5. Test with ```forge test -vv```
 
 ## Output
 Below is the output ypu will get from running the `forge test -vv` command.
