@@ -25,7 +25,7 @@ forge install --no-git OpenZeppelin/openzeppelin-contracts
 Below is the output ypu will get from running the `forge test -vv` command.
 
 ```text
-Running 2 tests for test/DelegateTest.t..sol:DelegateTest
+Running 2 tests for test/DelegateTest.t.sol:DelegateTest
 [PASS] testCallBFail() (gas: 45934)
 Logs:
   ---------------Output From ContractC Constructor-------------------
