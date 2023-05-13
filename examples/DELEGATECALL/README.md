@@ -1,5 +1,6 @@
 ## DelegateCall
 DeleteCall sends the call through to another contract. When the code is run at the other contract the **msg.value**,**msg.sender** and **storage** of the delegating contract are used.
+As a developer or auditor you need to keep this in mind as delegating a call to an external contract will allow that external contract access to variables and functionality of your contract.
 
 Included in this repository are files to test this concept.
 
@@ -24,11 +25,11 @@ Running 2 tests for test/DelegateTest.t..sol:DelegateTest
 [PASS] testCallBFail() (gas: 45934)
 Logs:
   ---------------Output From ContractC Constructor-------------------
-  | [CONSTRUCTOR] We contructed contractC with :  0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f  | 
+  | [CONSTRUCTOR] We contructed contractC with :  0x0.........  | 
   --------End Of Output From ContractC Constructor-------------------
   
   ---------------Output From ContactB setContractA function --------
-  | [setConstractA] Setting ContractA address to :  0x00000000000000000000000000000000000004d2  |
+  | [setConstractA] Setting ContractA address to :  0x0.........  |
   ---------------Output From ContactB setContractA-------------------
   
   ---------------Output From ContractA callB function -------------
@@ -39,7 +40,7 @@ Logs:
 [PASS] testCallBSuccess() (gas: 109451)
 Logs:
   ---------------Output From ContractC Constructor-------------------
-  | [CONSTRUCTOR] We contructed contractC with :  0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f  | 
+  | [CONSTRUCTOR] We contructed contractC with :  0x0.........  | 
   --------End Of Output From ContractC Constructor-------------------
   
   ---------------Output From ContractA callB function -------------
@@ -47,8 +48,8 @@ Logs:
   --------End Of Output From ContractA callB ----------------------
   
   ---------------Output From ContactC Modifier-----------------------
-  [MODIFIER] Expecting address :  0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f  | 
-  [MODIFIER] msg.sender is :  0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f  | 
+  [MODIFIER] Expecting address :  0x0.........  | 
+  [MODIFIER] msg.sender is :  0x0.........  | 
   ---------End of Output From ContactC Modifier-----------------------
   
   ---------------Output From ContractC receiveCall function ---------
