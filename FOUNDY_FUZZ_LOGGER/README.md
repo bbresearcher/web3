@@ -1,5 +1,5 @@
 ## Purpose
-The code in this directory is an example of how you may be able to log you foundry fuzz test input values to a file.
+The code in this directory is an example of how you may be able to log foundry fuzz test input values to a file.
 
 ## SETUP
 1. Install OpenZeppelin String utils with `forge install OpenZeppelin/openzeppelin-contracts`
