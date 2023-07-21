@@ -8,7 +8,7 @@ The code in this directory is an example of how you may be able to log foundry f
 4. Import the Strings utils in your Foundry test file and use the logger function at the bottom of the file. See Counter.t.sol in this directory
 
 ## BTW
-I have added the Counter.sol file so that test will be easier. See Counter.sol
+I have added the Counter.sol file so that testing quckly will be easier. See Counter.sol
 
 ## RUN
 To run issue the `forge test` command.
