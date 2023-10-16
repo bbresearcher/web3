@@ -1,0 +1,56 @@
+<html>
+<header>
+<title>JSON Function Parser</title>
+</header>
+<script>
+function genList(inStr)
+{
+  fn_list = "<table border='1' cellspacing=0><tr><th>Function Name</th><th>Function type</th></tr>";
+  jsonObj = JSON.parse(inStr);
+  listCount = jsonObj.length;
+  for(var i = 0;i<listCount;i++)
+  {
+    if(jsonObj[i].type == "function"){
+      if(jsonObj[i].stateMutability == "view" && document.all.view.checked==true){
+        fn_list += "<tr><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
+        }
+      if(jsonObj[i].stateMutability == "pure" && document.all.pure.checked==true){
+        fn_list += "<tr><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
+        }
+      if(jsonObj[i].stateMutability == "payable" && document.all.pay.checked==true){
+        fn_list += "<tr><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
+        }
+      if(jsonObj[i].stateMutability == "nonpayable" && document.all.npay.checked==true){
+        fn_list += "<tr><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
+        }
+      }
+  }
+  fn_list += "</table>";
+  document.all.functionlist.innerHTML = fn_list;
+}
+</script>
+<body>
+<table>
+<tr>
+<th>JSON function string (eg. forge inspect ./src/Counter.sol:Counter abi)</th>
+</tr>
+<tr>
+<td>
+<input type="checkbox" id="view"/> View | <input type="checkbox" id="pure"/> Pure | <input type="checkbox" id="pay"/> Payable | <input type="checkbox" id="npay"/> Non-Payable
+</td>
+<tr>
+<td>
+<textarea name="jsonn" id="jsson" cols=100 rows=10></textarea>
+</td>
+</tr>
+<td>
+<button id="sbmit" onclick="genList(document.all.jsonn.value)">Generate list</button>
+</td>
+</tr>
+<tr>
+<th>JSON function string (eg. forge inspect ./src/Counter.sol:Counter abi)</th>
+</tr>
+<td align="center">
+<span id="functionlist"></span>
+</td>
+</tr>
