@@ -3,6 +3,6 @@ You can use this file locally to parse the output of the forge ins[ect copmmand 
 
 This enables you to have a quick filterable view of the functions in a contract.
 
-!(.abiparser.png)
+![Screen view](./abiparser.png)
 
-DISCLAIMER: I do not warrant this code a bug free and or fit for purpose.
+DISCLAIMER: I do not warrant this code a bug free and or fit for purpose. do not use in a production environment.
