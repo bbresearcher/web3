@@ -5,25 +5,28 @@
 <script>
 function genList(inStr)
 {
-  fn_list = "<table border='1' cellspacing=0><tr><th>Function Name</th><th>Function type</th></tr>";
+  fn_list = "<table border='1' cellspacing=0 cellpadding=2><tr><th>Function Name</th><th>Function type</th></tr>";
   jsonObj = JSON.parse(inStr);
   listCount = jsonObj.length;
   for(var i = 0;i<listCount;i++)
   {
     if(jsonObj[i].type == "function"){
       if(jsonObj[i].stateMutability == "view" && document.all.view.checked==true){
-        fn_list += "<tr><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
+        fn_list += "<tr style='background-color:#00bfff'><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
         }
       if(jsonObj[i].stateMutability == "pure" && document.all.pure.checked==true){
-        fn_list += "<tr><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
+        fn_list += "<tr style='background-color:light-blue'><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
         }
       if(jsonObj[i].stateMutability == "payable" && document.all.pay.checked==true){
-        fn_list += "<tr><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
+        fn_list += "<tr style='background-color:gold'><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
         }
       if(jsonObj[i].stateMutability == "nonpayable" && document.all.npay.checked==true){
-        fn_list += "<tr><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
+        fn_list += "<tr style='background-color:salmon'><td>" + jsonObj[i].name + "</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
         }
       }
+    if(jsonObj[i].type == "constructor" && document.all.constr.checked==true){
+        fn_list += "<tr style='background-color:#00ff80'><td>constructor</td><td>" + jsonObj[i].stateMutability + "</td></tr>";
+        }
   }
   fn_list += "</table>";
   document.all.functionlist.innerHTML = fn_list;
@@ -36,7 +39,7 @@ function genList(inStr)
 </tr>
 <tr>
 <td>
-<input type="checkbox" id="view"/> View | <input type="checkbox" id="pure"/> Pure | <input type="checkbox" id="pay"/> Payable | <input type="checkbox" id="npay"/> Non-Payable
+<input type="checkbox" id="view"/> View | <input type="checkbox" id="pure"/> Pure | <input type="checkbox" id="pay"/> Payable | <input type="checkbox" id="npay"/> Non-Payable | <input type="checkbox" id="constr"/> Constructor
 </td>
 <tr>
 <td>
