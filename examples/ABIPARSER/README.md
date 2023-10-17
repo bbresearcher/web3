@@ -1,5 +1,5 @@
 # ABI PARSER HTML FILE
-You can use this file locally to parse an abi copied from a block explorer or the output of the forge ins[ect copmmand `eg. forge inspect ./src/Counter.sol:Counter abi`
+You can use this file locally to parse an abi copied from a block explorer or the output of the forge inspect copmmand `eg. forge inspect ./src/Counter.sol:Counter abi`
 
 This enables you to have a quick filterable view of the functions in a contract.
 
