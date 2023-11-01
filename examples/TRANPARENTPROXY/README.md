@@ -37,7 +37,6 @@ contract Implementation is Initializable, UUPSUpgradeable, OwnableUpgradeable {
 }
 ```
 
-Part2:
 6) create file Proxytest.t.sol in test directory
 7) copy/paste code below
 ```
